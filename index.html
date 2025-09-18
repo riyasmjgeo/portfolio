@@ -1,175 +1,95 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Riyas's Website</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts for a modern look -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        /* Custom scrollbar styles */
-        .scroll-container::-webkit-scrollbar {
-            width: 8px;
-        }
-        .scroll-container::-webkit-scrollbar-track {
-            background: #222123;
-            border-radius: 10px;
-        }
-        .scroll-container::-webkit-scrollbar-thumb {
-            background-color: #4a4a4d;
-            border-radius: 10px;
-            border: 2px solid #222123;
-        }
-        .scroll-container::-webkit-scrollbar-thumb:hover {
-            background-color: #555558;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riyas's Website</title>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Google Fonts for a modern look -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+<!-- Link to the external stylesheet -->
+<link rel="stylesheet" href="style.css">
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body class="bg-[#121212] text-white flex flex-col items-center justify-center min-h-screen py-16 px-4">
 
-    <!-- Header Section -->
-    <div class="text-center my-8 md:my-16">
-        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight">
-            Hello World, Riyas here!
-        </h1>
-        <p class="mt-4 text-sm sm:text-base md:text-lg text-gray-400">
-            abcdefghijk
-        </p>
-    </div>
+<!-- Header Section -->
+<div class="text-center my-8 md:my-16">
+    <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight">
+        Hello World, Riyas here!
+    </h1>
+    <p class="mt-4 text-sm sm:text-base md:text-lg text-gray-400">
+        abcdefghijk
+    </p>
+</div>
 
-    <!-- Main Content Box -->
-    <div class="bg-[#1E1E1F] rounded-2xl shadow-lg p-6 sm:p-12 w-full max-w-6xl">
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-10">
-            <!-- Tile 1: Apps -->
-            <div class="bg-[#222123] rounded-xl p-6 sm:h-auto transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <h3 class="text-lg sm:text-xl font-bold mb-4 text-gray-200 text-center">Apps</h3>
-                <div id="apps-content" class="flex flex-col space-y-4 overflow-y-auto h-96 scroll-container p-2">
-                    <!-- Apps content will be populated by JavaScript -->
-                </div>
+<!-- Main Content Box -->
+<div class="bg-[#1E1E1F] rounded-2xl shadow-lg p-6 sm:p-12 w-full max-w-6xl">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-10">
+        <!-- Tile 1: Apps -->
+        <div class="bg-[#222123] rounded-xl p-6 sm:h-auto transition-transform transform hover:scale-105 hover:shadow-2xl">
+            <h3 class="text-lg sm:text-xl font-bold mb-4 text-gray-200 text-center">Apps</h3>
+            <div id="apps-content" class="flex flex-col space-y-4 overflow-y-auto h-96 scroll-container p-2">
+                <!-- Apps content will be populated by JavaScript -->
             </div>
+        </div>
 
-            <!-- Tile 2: Codes -->
-            <div class="bg-[#222123] rounded-xl p-6 sm:h-auto transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <h3 class="text-lg sm:text-xl font-bold mb-4 text-gray-200 text-center">Codes</h3>
-                <div id="codes-content" class="flex flex-col space-y-4 overflow-y-auto h-96 scroll-container p-2">
-                    <!-- Codes content will be populated by JavaScript -->
-                </div>
+        <!-- Tile 2: Codes -->
+        <div class="bg-[#222123] rounded-xl p-6 sm:h-auto transition-transform transform hover:scale-105 hover:shadow-2xl">
+            <h3 class="text-lg sm:text-xl font-bold mb-4 text-gray-200 text-center">Codes</h3>
+            <div id="codes-content" class="flex flex-col space-y-4 overflow-y-auto h-96 scroll-container p-2">
+                <!-- Codes content will be populated by JavaScript -->
             </div>
+        </div>
 
-            <!-- Tile 3: Blogs -->
-            <div class="bg-[#222123] rounded-xl p-6 sm:h-auto transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <h3 class="text-lg sm:text-xl font-bold mb-4 text-gray-200 text-center">Blogs</h3>
-                <div id="blogs-content" class="flex flex-col space-y-4 overflow-y-auto h-96 scroll-container p-2">
-                    <!-- Blogs content will be populated by JavaScript -->
-                </div>
+        <!-- Tile 3: Blogs -->
+        <div class="bg-[#222123] rounded-xl p-6 sm:h-auto transition-transform transform hover:scale-105 hover:shadow-2xl">
+            <h3 class="text-lg sm:text-xl font-bold mb-4 text-gray-200 text-center">Blogs</h3>
+            <div id="blogs-content" class="flex flex-col space-y-4 overflow-y-auto h-96 scroll-container p-2">
+                <!-- Blogs content will be populated by JavaScript -->
             </div>
+        </div>
 
-            <!-- Tile 4: About Me -->
-            <div class="bg-[#222123] rounded-xl p-6 sm:h-auto transition-transform transform hover:scale-105 hover:shadow-2xl">
-                <h3 class="text-lg sm:text-xl font-bold mb-4 text-gray-200 text-center">About Me</h3>
-                <div class="flex flex-col space-y-4 overflow-y-auto h-96 scroll-container p-2">
-                    <p class="text-gray-400 text-sm leading-relaxed">
-                        Experienced Software Engineer with over a decade of hands-on expertise across geomatics, software testing, programming, automation, research, and leadership. Known for my meticulous attention to detail and adaptability, I consistently develop and implement high-quality solutions for complex problems demanding multidisciplinary proficiency. Currently holding a long-term UK work visa and actively seeking a position where I can apply my comprehensive skill set. 
-                    </p>
-                    <a href="resume.html" class="mt-4 inline-block bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg text-center hover:bg-blue-700 transition-colors">
-                        My Digital Resume
+        <!-- Tile 4: About Me -->
+        <div class="bg-[#222123] rounded-xl p-6 sm:h-auto transition-transform transform hover:scale-105 hover:shadow-2xl">
+            <h3 class="text-lg sm:text-xl font-bold mb-4 text-gray-200 text-center">About Me</h3>
+            <div class="flex flex-col space-y-4 overflow-y-auto h-96 scroll-container p-2">
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    Experienced Software Engineer with over a decade of hands-on expertise across geomatics, software testing, programming, automation, research, and leadership. Known for my meticulous attention to detail and adaptability, I consistently develop and implement high-quality solutions for complex problems demanding multidisciplinary proficiency. Currently holding a long-term UK work visa and actively seeking a position where I can apply my comprehensive skill set. 
+                </p>
+                <br>
+                <a href="resume.html" class="mt-4 inline-block bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg text-center hover:bg-blue-700 transition-colors">
+                    My Digital Resume
+                </a>
+                <br>
+                
+                <br>
+                <div class="flex justify-center space-x-4 mt-12">
+                    <a href="mailto:youremail@example.com" class="text-gray-400 hover:text-blue-400 transition-colors">
+                        <i class="fas fa-envelope fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="text-gray-400 hover:text-blue-400 transition-colors">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://github.com/yourprofile" target="_blank" class="text-gray-400 hover:text-blue-400 transition-colors">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                    <a href="https://www.researchgate.net/profile/yourprofile" target="_blank" class="text-gray-400 hover:text-blue-400 transition-colors">
+                        <i class="fab fa-researchgate fa-2x"></i>
                     </a>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <!-- Footer Links -->
-    <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8 md:mt-12 text-sm sm:text-base">
-        <a href="#" class="text-blue-400 hover:text-blue-300 font-medium transition-colors">Github</a>
-        <span class="hidden sm:block text-gray-500">|</span>
-        <a href="#" class="text-blue-400 hover:text-blue-300 font-medium transition-colors">LinkedIn</a>
-        <span class="hidden sm:block text-gray-500">|</span>
-        <a href="#" class="text-blue-400 hover:text-blue-300 font-medium transition-colors">Research Scholar</a>
-    </div>
+<!-- Link to the external JavaScript file -->
+<script src="script.js"></script>
 
-    <script>
-        const items = {
-            apps: [
-                { name: 'Spotify: Music and Podcasts', url: '#', icon: 'https://placehold.co/48x48/1DB954/white?text=S', description: 'The official Spotify app to stream millions of songs and podcasts.', rating: '4.7 ★' },
-                { name: 'Duolingo: Learn a Language', url: '#', icon: 'https://placehold.co/48x48/58CC02/white?text=D', description: 'A free, fun, and effective app for learning new languages.', rating: '4.8 ★' },
-                { name: 'Google Maps: Navigate & Explore', url: '#', icon: 'https://placehold.co/48x48/4285F4/white?text=M', description: 'Real-time GPS navigation, traffic, and public transit info.', rating: '4.3 ★' },
-                { name: 'Trello: Manage Team Projects', url: '#', icon: 'https://placehold.co/48x48/0079BF/white?text=T', description: 'A visual way to organize, collaborate, and get things done.', rating: '4.5 ★' },
-                { name: 'Headspace: Meditation & Sleep', url: '#', icon: 'https://placehold.co/48x48/F76735/white?text=H', description: 'Guided meditations, mindfulness, and sleep tools.', rating: '4.6 ★' },
-                { name: 'Notion: All-in-one Workspace', url: '#', icon: 'https://placehold.co/48x48/313131/white?text=N', description: 'A single space for notes, tasks, wikis, and databases.', rating: '4.7 ★' }
-            ],
-            codes: [
-                { name: 'AI-Powered Text Summarizer', url: '#', description: 'A Python script that uses natural language processing to condense long articles into short summaries.' },
-                { name: 'E-commerce Microservice API', url: '#', description: 'A Node.js REST API for a simple e-commerce platform, handling products, orders, and user authentication.' },
-                { name: 'React Native Social App UI', url: '#', description: 'A mobile UI kit for a social media application built with React Native and Tailwind CSS.' },
-                { name: 'Rust CLI Tool for File Management', url: '#', description: 'A command-line tool written in Rust for fast and efficient file and directory manipulation.' },
-                { name: 'Kubernetes Deployment with Helm', url: '#', description: 'A collection of Helm charts and Kubernetes manifests for deploying a microservice-based application.' },
-            ],
-            blogs: [
-                { name: 'The Rise of Serverless Computing', url: '#', description: 'An overview of serverless architecture and its impact on modern web development.' },
-                { name: 'Understanding CSS Grid Layout', url: '#', description: 'A comprehensive tutorial on how to use CSS Grid for building responsive and complex layouts.' },
-                { name: 'My Journey into Machine Learning', url: '#', description: 'A personal account of learning the fundamentals of machine learning and building a simple model.' },
-                { name: 'State Management in React with Zustand', url: '#', description: 'A guide to using Zustand for simple and efficient state management in React applications.' },
-                { name: 'Building a Portfolio with Tailwind CSS', url: '#', description: 'Tips and tricks for creating a beautiful and responsive personal website using Tailwind CSS.' }
-            ]
-        };
-
-        function populateTile(type) {
-            const container = document.getElementById(`${type}-content`);
-            if (!container) return;
-
-            items[type].forEach(item => {
-                const itemDiv = document.createElement('a');
-                itemDiv.href = item.url;
-                itemDiv.className = 'flex items-center space-x-4 p-4 rounded-lg bg-[#272627] hover:bg-[#2e2d2e] transition-colors cursor-pointer';
-
-                const itemDetails = document.createElement('div');
-                itemDetails.className = 'flex-1';
-                
-                const itemTitle = document.createElement('h4');
-                itemTitle.textContent = item.name;
-                itemTitle.className = 'text-base font-bold text-gray-100';
-
-                const itemDesc = document.createElement('p');
-                itemDesc.textContent = item.description;
-                itemDesc.className = 'text-xs text-gray-400 mt-1 line-clamp-2';
-
-                itemDetails.appendChild(itemTitle);
-                itemDetails.appendChild(itemDesc);
-
-                if (type === 'apps') {
-                    const itemIcon = document.createElement('img');
-                    itemIcon.src = item.icon;
-                    itemIcon.alt = `${item.name} icon`;
-                    itemIcon.className = 'w-12 h-12 rounded-lg';
-                    
-                    const itemRating = document.createElement('span');
-                    itemRating.textContent = item.rating;
-                    itemRating.className = 'text-sm text-yellow-400 font-semibold';
-                    
-                    itemDiv.appendChild(itemIcon);
-                    itemDiv.appendChild(itemDetails);
-                    itemDiv.appendChild(itemRating);
-                } else {
-                    itemDiv.appendChild(itemDetails);
-                }
-                
-                container.appendChild(itemDiv);
-            });
-        }
-
-        document.addEventListener('DOMContentLoaded', () => {
-            populateTile('apps');
-            populateTile('codes');
-            populateTile('blogs');
-        });
-    </script>
 </body>
 </html>

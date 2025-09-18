@@ -4,36 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riyas Moidu Jameela - Resume</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts for a modern look -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        .section-icon {
-            color: #60A5FA; /* Blue-400 */
-        }
-        .list-indent {
-            list-style-position: outside;
-            padding-left: 1.5rem;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-[#121212] text-white flex justify-center py-12 px-4">
 
     <div class="w-full max-w-4xl bg-[#1E1E1F] rounded-2xl shadow-lg p-6 sm:p-10 md:p-12 space-y-8">
-        <!-- Back button -->
         <a href="index.html" class="inline-block text-gray-400 hover:text-white transition-colors">
             <i class="fas fa-arrow-left mr-2"></i> Back to Portfolio
         </a>
 
-        <!-- Header Section -->
         <header class="flex flex-col md:flex-row items-center justify-between gap-6 pb-6 border-b border-gray-700">
             <div class="flex flex-col items-center md:items-start text-center md:text-left">
                 <h1 class="text-4xl font-extrabold text-blue-400">RIYAS MOIDU JAMEELA</h1>
@@ -49,13 +33,10 @@
                     <span><i class="fas fa-file-invoice section-icon mr-2"></i> Work Permit: United Kingdom, India</span>
                 </div>
             </div>
-            <!-- Placeholder for profile image -->
             <img src="https://placehold.co/120x120/4B5563/E5E7EB?text=Profile" alt="Riyas's profile" class="rounded-full w-28 h-28 border-4 border-blue-400 shadow-md">
         </header>
 
-        <!-- Summary & Education Section -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Summary -->
             <div class="md:col-span-2 bg-[#222123] rounded-xl p-6 shadow-md">
                 <h2 class="text-2xl font-bold mb-4 text-blue-400">
                     <i class="fas fa-user-circle section-icon mr-2"></i> Summary
@@ -64,7 +45,6 @@
                     Experienced Software Engineer with over a decade of hands-on expertise across geomatics, software testing, programming, automation, research, and leadership. Known for my meticulous attention to detail and adaptability, I consistently develop and implement high-quality solutions for complex problems demanding multidisciplinary proficiency. Currently holding a long-term UK work visa and actively seeking a position where I can apply my comprehensive skill set.
                 </p>
             </div>
-            <!-- Education -->
             <div class="md:col-span-1 bg-[#222123] rounded-xl p-6 shadow-md">
                 <h2 class="text-2xl font-bold mb-4 text-blue-400">
                     <i class="fas fa-graduation-cap section-icon mr-2"></i> Education
@@ -84,13 +64,11 @@
             </div>
         </div>
 
-        <!-- Experience Section -->
         <div class="bg-[#222123] rounded-xl p-6 shadow-md">
             <h2 class="text-2xl font-bold mb-4 text-blue-400">
                 <i class="fas fa-briefcase section-icon mr-2"></i> Experience
             </h2>
             <div class="space-y-6">
-                <!-- Job 1 -->
                 <div>
                     <div class="flex justify-between items-start">
                         <div>
@@ -105,7 +83,6 @@
                         <li>Helped to improve test processes and reviewed key artefacts including test plans, system requirements, and design documents.</li>
                     </ul>
                 </div>
-                <!-- Job 2 -->
                 <div>
                     <div class="flex justify-between items-start">
                         <div>
@@ -121,7 +98,6 @@
                         <li>Promoted continuous learning, hosted and delivered recurring technical sessions, and developed training materials.</li>
                     </ul>
                 </div>
-                <!-- Research Experience -->
                 <div class="border-t border-gray-700 pt-6">
                     <h3 class="text-xl font-semibold mb-2">Research Experience</h3>
                     <ul class="list-disc list-indent space-y-4 text-gray-300">
@@ -158,11 +134,8 @@
             </div>
         </div>
 
-        <!-- New sections: Publications & Achievements on left, Certifications & Skills on right -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <!-- Left Column -->
             <div>
-                <!-- Publications -->
                 <div class="bg-[#222123] rounded-xl p-6 shadow-md mb-8">
                     <h2 class="text-2xl font-bold mb-4 text-blue-400">
                         <i class="fas fa-book section-icon mr-2"></i> Publications
@@ -174,7 +147,6 @@
                         <li><a href="https://rdrr.io/cran/ASIP" class="hover:underline">ASIP: Automated Satellite Image Processing - R package</a></li>
                     </ul>
                 </div>
-                <!-- Achievements -->
                 <div class="bg-[#222123] rounded-xl p-6 shadow-md">
                     <h2 class="text-2xl font-bold mb-4 text-blue-400">
                         <i class="fas fa-trophy section-icon mr-2"></i> Achievements
@@ -188,9 +160,7 @@
                 </div>
             </div>
 
-            <!-- Right Column -->
             <div>
-                <!-- Certifications -->
                 <div class="bg-[#222123] rounded-xl p-6 shadow-md mb-8">
                     <h2 class="text-2xl font-bold mb-4 text-blue-400">
                         <i class="fas fa-award section-icon mr-2"></i> Certifications
@@ -203,7 +173,6 @@
                         <li>Git and GitHub Professional</li>
                     </ul>
                 </div>
-                <!-- Skills -->
                 <div class="bg-[#222123] rounded-xl p-6 shadow-md">
                     <h2 class="text-2xl font-bold mb-4 text-blue-400">
                         <i class="fas fa-code section-icon mr-2"></i> Skills
@@ -226,7 +195,6 @@
             </div>
         </div>
         
-        <!-- Download Button -->
         <div class="flex justify-center mt-8">
             <a href="https://www.google.com" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full text-lg shadow-lg transition-colors duration-300">
                 Download Copy
