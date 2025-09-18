@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riyas Moidu Jameela - Resume</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for a modern look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .section-icon {
+            color: #60A5FA; /* Blue-400 */
+        }
+        .list-indent {
+            list-style-position: outside;
+            padding-left: 1.5rem;
+        }
+    </style>
+</head>
+<body class="bg-[#121212] text-white flex justify-center py-12 px-4">
+
+    <div class="w-full max-w-4xl bg-[#1E1E1F] rounded-2xl shadow-lg p-6 sm:p-10 md:p-12 space-y-8">
+        <!-- Back button -->
+        <a href="index.html" class="inline-block text-gray-400 hover:text-white transition-colors">
+            <i class="fas fa-arrow-left mr-2"></i> Back to Portfolio
+        </a>
+
+        <!-- Header Section -->
+        <header class="flex flex-col md:flex-row items-center justify-between gap-6 pb-6 border-b border-gray-700">
+            <div class="flex flex-col items-center md:items-start text-center md:text-left">
+                <h1 class="text-4xl font-extrabold text-blue-400">RIYAS MOIDU JAMEELA</h1>
+                <p class="mt-2 text-xl font-medium text-gray-300">Geospatial Expert | Test Engineer | Software Developer | Team Lead</p>
+                <div class="mt-4 flex flex-wrap justify-center md:justify-start gap-4 text-sm text-gray-400">
+                    <span><i class="fas fa-phone mr-2"></i> +44 7350033460</span>
+                    <span><i class="fas fa-envelope mr-2"></i> riyas_mj@outlook.com</span>
+                    <span><i class="fas fa-location-dot mr-2"></i> Liverpool, United Kingdom</span>
+                </div>
+                <div class="mt-1 flex flex-wrap justify-center md:justify-start gap-4 text-sm text-gray-400">
+                    <a href="https://www.github.com/riyasmjgeo/portfolio" class="hover:underline"><i class="fas fa-link mr-2"></i> Portfolio</a>
+                    <a href="https://www.linkedin.com/in/riyas-jameela-19b7a9207" class="hover:underline"><i class="fab fa-linkedin mr-2"></i> LinkedIn</a>
+                    <span><i class="fas fa-file-invoice section-icon mr-2"></i> Work Permit: United Kingdom, India</span>
+                </div>
+            </div>
+            <!-- Placeholder for profile image -->
+            <img src="https://placehold.co/120x120/4B5563/E5E7EB?text=Profile" alt="Riyas's profile" class="rounded-full w-28 h-28 border-4 border-blue-400 shadow-md">
+        </header>
+
+        <!-- Summary & Education Section -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Summary -->
+            <div class="md:col-span-2 bg-[#222123] rounded-xl p-6 shadow-md">
+                <h2 class="text-2xl font-bold mb-4 text-blue-400">
+                    <i class="fas fa-user-circle section-icon mr-2"></i> Summary
+                </h2>
+                <p class="text-gray-300 leading-relaxed">
+                    Experienced Software Engineer with over a decade of hands-on expertise across geomatics, software testing, programming, automation, research, and leadership. Known for my meticulous attention to detail and adaptability, I consistently develop and implement high-quality solutions for complex problems demanding multidisciplinary proficiency. Currently holding a long-term UK work visa and actively seeking a position where I can apply my comprehensive skill set.
+                </p>
+            </div>
+            <!-- Education -->
+            <div class="md:col-span-1 bg-[#222123] rounded-xl p-6 shadow-md">
+                <h2 class="text-2xl font-bold mb-4 text-blue-400">
+                    <i class="fas fa-graduation-cap section-icon mr-2"></i> Education
+                </h2>
+                <div class="space-y-4">
+                    <div>
+                        <h3 class="font-semibold text-lg">Master's degree in GIS</h3>
+                        <p class="text-gray-400 text-sm">Cochin University of Science and Technology (CUSAT), India</p>
+                        <p class="text-gray-500 text-xs">06/2011 - 04/2013</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg">Bachelor's degree in Physics</h3>
+                        <p class="text-gray-400 text-sm">University of Calicut, India</p>
+                        <p class="text-gray-500 text-xs">06/2008 - 04/2011</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="bg-[#222123] rounded-xl p-6 shadow-md">
+            <h2 class="text-2xl font-bold mb-4 text-blue-400">
+                <i class="fas fa-briefcase section-icon mr-2"></i> Experience
+            </h2>
+            <div class="space-y-6">
+                <!-- Job 1 -->
+                <div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-xl font-semibold">Verification Prime</h3>
+                            <p class="text-gray-400">Hexagon</p>
+                        </div>
+                        <span class="text-gray-500 text-sm">04/2025 - Present | Aberdeen, Scotland</span>
+                    </div>
+                    <ul class="list-disc list-indent mt-2 text-gray-300 space-y-1">
+                        <li>Developed detailed test specification and Python-based test suite integrated with Jenkins for fully automated verification of embedded GNSS firmware.</li>
+                        <li>Served as scrum master for the agile testing team, facilitating timely test development and execution, while acting as an SME to troubleshoot issues and mentor team members.</li>
+                        <li>Helped to improve test processes and reviewed key artefacts including test plans, system requirements, and design documents.</li>
+                    </ul>
+                </div>
+                <!-- Job 2 -->
+                <div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-xl font-semibold">Software Engineer</h3>
+                            <p class="text-gray-400">Hexagon</p>
+                        </div>
+                        <span class="text-gray-500 text-sm">09/2022 - 03/2025 | Hyderabad, India</span>
+                    </div>
+                    <ul class="list-disc list-indent mt-2 text-gray-300 space-y-1">
+                        <li>Contributed to Python packages used for computing and analyzing GNSS performance.</li>
+                        <li>Performed test designing and test execution for verifying and validating various multiple GNSS firmware.</li>
+                        <li>Developed and managed regression and soak test suites for testing latest firmware builds for embedded GNSS firmware during its development cycle.</li>
+                        <li>Promoted continuous learning, hosted and delivered recurring technical sessions, and developed training materials.</li>
+                    </ul>
+                </div>
+                <!-- Research Experience -->
+                <div class="border-t border-gray-700 pt-6">
+                    <h3 class="text-xl font-semibold mb-2">Research Experience</h3>
+                    <ul class="list-disc list-indent space-y-4 text-gray-300">
+                        <li>
+                            <div class="flex justify-between items-start">
+                                <h4 class="font-medium">Project Scientist - <em>National Centre for Polar and Ocean Research</em></h4>
+                                <span class="text-gray-500 text-sm">03/2022 - 09/2022</span>
+                            </div>
+                            <p class="mt-1">Quantified ice velocity changes in Antarctica continent to study climate change impacts using pixel offset tracking of Sentinel-1 SAR images.</p>
+                        </li>
+                        <li>
+                            <div class="flex justify-between items-start">
+                                <h4 class="font-medium">Senior Research Fellow - <em>Indian Institute of Technology</em></h4>
+                                <span class="text-gray-500 text-sm">05/2017 - 03/2022</span>
+                            </div>
+                            <p class="mt-1">Remote Sensing of underground coal fire dynamics using an automated method utilizing differential SAR interferometry time-series and thermal-IR images.</p>
+                        </li>
+                        <li>
+                            <div class="flex justify-between items-start">
+                                <h4 class="font-medium">Project Assistant - <em>National Institute of Oceanography</em></h4>
+                                <span class="text-gray-500 text-sm">09/2014 - 03/2017</span>
+                            </div>
+                            <p class="mt-1">Coastal risk assessment and shoreline change modeling using Remote sensing and GIS.</p>
+                        </li>
+                        <li>
+                            <div class="flex justify-between items-start">
+                                <h4 class="font-medium">Research Fellow - <em>Salim Ali Centre for Ornithology and Natural History</em></h4>
+                                <span class="text-gray-500 text-sm">08/2013 - 03/2014</span>
+                            </div>
+                            <p class="mt-1">Agro climatic zones classification, LULC change detection</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- New sections: Publications & Achievements on left, Certifications & Skills on right -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Left Column -->
+            <div>
+                <!-- Publications -->
+                <div class="bg-[#222123] rounded-xl p-6 shadow-md mb-8">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-400">
+                        <i class="fas fa-book section-icon mr-2"></i> Publications
+                    </h2>
+                    <ul class="list-disc list-indent text-gray-300 space-y-2">
+                        <li><a href="https://doi.org/10.1016/j.earscirev.2018.10.009" class="hover:underline">Remote sensing of coal fires in India: A review</a></li>
+                        <li><a href="https://doi.org/10.1007/s11069-019-03766-2" class="hover:underline">Shoreline changes and coastal erosion in Mumbai: A study of the last 40 years</a></li>
+                        <li><a href="https://doi.org/10.3390/rs13081521" class="hover:underline">Detecting and Analyzing the Evolution of Subsidence Due to Coal Fires in Jharia Coalfield, India Using Sentinel-1 SAR Data</a></li>
+                        <li><a href="https://rdrr.io/cran/ASIP" class="hover:underline">ASIP: Automated Satellite Image Processing - R package</a></li>
+                    </ul>
+                </div>
+                <!-- Achievements -->
+                <div class="bg-[#222123] rounded-xl p-6 shadow-md">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-400">
+                        <i class="fas fa-trophy section-icon mr-2"></i> Achievements
+                    </h2>
+                    <ul class="list-disc list-indent text-gray-300 space-y-2">
+                        <li>Developed and shared apps and scripts for the public for free.</li>
+                        <li>Received three awards from Hexagon for exceptional performance.</li>
+                        <li>Secured all-India ranking 407 in Graduate Aptitude Test in Engineering (GATE), Ministry of Education, India.</li>
+                        <li>Secured overall IELTS band score 7.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div>
+                <!-- Certifications -->
+                <div class="bg-[#222123] rounded-xl p-6 shadow-md mb-8">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-400">
+                        <i class="fas fa-award section-icon mr-2"></i> Certifications
+                    </h2>
+                    <ul class="list-disc list-indent text-gray-300 space-y-2">
+                        <li>ISTQB Certified Tester Foundation Level</li>
+                        <li>DevOps Engineer</li>
+                        <li>Python Professional</li>
+                        <li>Spatial Analysis and Geospatial Data Science in Python</li>
+                        <li>Git and GitHub Professional</li>
+                    </ul>
+                </div>
+                <!-- Skills -->
+                <div class="bg-[#222123] rounded-xl p-6 shadow-md">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-400">
+                        <i class="fas fa-code section-icon mr-2"></i> Skills
+                    </h2>
+                    <div class="space-y-4">
+                        <div>
+                            <h3 class="font-semibold text-lg text-gray-300">Software Testing</h3>
+                            <p class="mt-1 text-gray-400">Jenkins, Polarion, Automation, PyTest, Regression Test, Soak test, Selenium, Test Plan, Test Design, Test Suite</p>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg text-gray-300">DevOps</h3>
+                            <p class="mt-1 text-gray-400">Python, Git, Linux, Docker, AWS, Azure, Grafana, Kubernetes, Scrum, Ansible, R, Agile, Jira, Django, CI/CD Pipeline, SQL, DBMS, REST API, Technical Writing, ML, Prompt Engineering, JavaScript</p>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg text-gray-300">Geospatial</h3>
+                            <p class="mt-1 text-gray-400">Remote Sensing, GIS, GNSS, GeoServer, ArcPy, ArcGIS, QGIS, GDAL, Geopandas, OpenLayers, WebGIS, Earth-Engine</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Download Button -->
+        <div class="flex justify-center mt-8">
+            <a href="https://www.google.com" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full text-lg shadow-lg transition-colors duration-300">
+                Download Copy
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
