@@ -16,11 +16,8 @@ const items = {
         { name: 'Kubernetes Deployment with Helm', url: '#', description: 'A collection of Helm charts and Kubernetes manifests for deploying a microservice-based application.' },
     ],
     blogs: [
-        { name: 'The Rise of Serverless Computing', url: '#', description: 'An overview of serverless architecture and its impact on modern web development.' },
-        { name: 'Understanding CSS Grid Layout', url: '#', description: 'A comprehensive tutorial on how to use CSS Grid for building responsive and complex layouts.' },
-        { name: 'My Journey into Machine Learning', url: '#', description: 'A personal account of learning the fundamentals of machine learning and building a simple model.' },
-        { name: 'State Management in React with Zustand', url: '#', description: 'A guide to using Zustand for simple and efficient state management in React applications.' },
-        { name: 'Building a Portfolio with Tailwind CSS', url: '#', description: 'Tips and tricks for creating a beautiful and responsive personal website using Tailwind CSS.' }
+        { name: 'Paid cloud storage Vs free file sync?', url: './Blogs/syncthing.html', description: "Many people use cloud storage services like Google Drive or Dropbox to keep files in sync between their computers, phones, and tablets. However, this isn't always the most efficient or secure solution." },
+        { name: 'Tidy your mailbox easily', url: './Blogs/tidy_mailbox_easily.html', description: "If you are someone who wish to get internet services without exposing your inbox for the spammers, this might help you!" },
     ]
 };
 
