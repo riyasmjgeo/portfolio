@@ -2,11 +2,7 @@
 const items = {
     apps: [
         { name: 'Spotify: Music and Podcasts', url: '#', icon: 'https://placehold.co/48x48/1DB954/white?text=S', description: 'The official Spotify app to stream millions of songs and podcasts.', rating: '4.7 ★' },
-        { name: 'Duolingo: Learn a Language', url: '#', icon: 'https://placehold.co/48x48/58CC02/white?text=D', description: 'A free, fun, and effective app for learning new languages.', rating: '4.8 ★' },
         { name: 'Google Maps: Navigate & Explore', url: '#', icon: 'https://placehold.co/48x48/4285F4/white?text=M', description: 'Real-time GPS navigation, traffic, and public transit info.', rating: '4.3 ★' },
-        { name: 'Trello: Manage Team Projects', url: '#', icon: 'https://placehold.co/48x48/0079BF/white?text=T', description: 'A visual way to organize, collaborate, and get things done.', rating: '4.5 ★' },
-        { name: 'Headspace: Meditation & Sleep', url: '#', icon: 'https://placehold.co/48x48/F76735/white?text=H', description: 'Guided meditations, mindfulness, and sleep tools.', rating: '4.6 ★' },
-        { name: 'Notion: All-in-one Workspace', url: '#', icon: 'https://placehold.co/48x48/313131/white?text=N', description: 'A single space for notes, tasks, wikis, and databases.', rating: '4.7 ★' }
     ],
     codes: [
         { name: 'AI-Powered Text Summarizer', url: '#', description: 'A Python script that uses natural language processing to condense long articles into short summaries.' },
